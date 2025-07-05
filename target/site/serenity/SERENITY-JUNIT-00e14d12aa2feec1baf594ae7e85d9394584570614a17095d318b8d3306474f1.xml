@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Navegacion de productos" skipped="0" tests="1" time="0.42" timestamp="2025-07-04 09:12:07"><testcase name="Ver todos los productos de Desktop"><failure message="Invalid URL: ${pages.swaglabsUrl}" type="java.lang.AssertionError">Invalid URL: ${pages.swaglabsUrl}</failure><system-err>Invalid URL: ${pages.swaglabsUrl}&#13;
+co.edu.udea.screenplay.screenplay.stepdefinitions.LoginSteps.enLaPaginaDeInicio(DesktopSteps.java:40)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
