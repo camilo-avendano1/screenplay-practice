@@ -17,7 +17,7 @@ public class InteractionLogin implements Interaction {
     private String password;
     private boolean fullFlow;
 
-    // Constructor para flujo completo
+
     public InteractionLogin(String email, String password, boolean fullFlow) {
         this.email = email;
         this.password = password;

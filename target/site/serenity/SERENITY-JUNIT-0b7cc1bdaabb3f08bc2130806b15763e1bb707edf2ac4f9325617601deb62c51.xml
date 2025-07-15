@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Autenticacion de usuario" skipped="0" tests="1" time="5.25" timestamp="2025-07-04 11:34:18"><testcase name="Login exitoso con credenciales validas"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Autenticacion de usuario" skipped="0" tests="2" time="6.97" timestamp="2025-07-14 05:52:25"><testcase name="Login exitoso con credenciales validas"/><testcase name="Intento de login fallido con credenciales inválidas"><failure message="Expected condition failed: waiting for By.xpath: //a[contains(., 'Signup / Login')] to be present (tried for 10 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[contains(., 'Signup / Login')] to be present (tried for 10 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[contains(., 'Signup / Login')] to be present (tried for 10 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown&#13;
+co.edu.udea.screenplay.screenplay.stepdefinitions.LoginSteps.intentoLoginFallido(LoginSteps.java:117)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

@@ -17,5 +17,6 @@ public class UserInterface extends PageObject {
 
     public static final Target USER_LOGGED = Target.the("USER_LOGGED").locatedBy("//*[@id='header']/div/div/div/div[2]/div/ul/li[10]");
 
+    public static  final Target USER_UNLOGGED = Target.the("USER_UNLOGGED").locatedBy("//*[@id='form']/div/div/div[1]/div/form/p");
 
 }
