@@ -11,11 +11,9 @@
       When intento iniciar sesión con correo "usuario_inexistente@test.com" y contraseña "incorrecta"
       Then el sistema muestra un mensaje de error "Your email or password is incorrect!"
 
+
     Scenario: Login exitoso con credenciales validas
       Given Estoy en la pagina principal
-      When doy click en el botón de inicio de sesion
-      And ingreso el correo de usuario "test-camilo@test.com"
-      And ingreso la contraseña "test1234"
-      And hago clic en el boton de login
+      When intento iniciar sesión con correo "test-camilo@test.com" y contraseña "test1234"
       Then deberia ver el texto "Logged in as test-camilo"
 

@@ -10,10 +10,6 @@ import static co.edu.udea.screenplay.screenplay.userinterfaces.UserInterface.USE
 
 public class ValidationLogin {
 
-
-
-
-
     public static Question<Boolean> mensajeContieneTexto(String textoEsperado) {
         return Question.about("si el mensaje contiene el texto: " + textoEsperado)
                 .answeredBy(actor ->

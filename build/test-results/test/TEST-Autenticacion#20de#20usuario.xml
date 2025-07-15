@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Autenticacion de usuario" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-14T23:02:57" hostname="CAMILO" time="20.618">
+<testsuite name="Autenticacion de usuario" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-15T02:28:41" hostname="CAMILO" time="22.201">
   <properties/>
-  <testcase name="Intento de login fallido con credenciales inválidas" classname="Autenticacion de usuario" time="11.547"/>
-  <testcase name="Login exitoso con credenciales validas" classname="Autenticacion de usuario" time="9.071"/>
+  <testcase name="Intento de login fallido con credenciales inválidas" classname="Autenticacion de usuario" time="13.592"/>
+  <testcase name="Login exitoso con credenciales validas" classname="Autenticacion de usuario" time="8.609"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
@@ -14,9 +14,9 @@ Intento de login fallido con credenciales inválidas(autenticacion-de-usuario;in
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, --disable-blink-features=Au..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-infobars, --disable-gpu, --user-agent=Mozilla/5.0 (W..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, --disable-blink-features=Au..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-infobars, --disable-gpu, --user-agent=Mozilla/5.0 (W..., remote-allow-origins=*], excludeSwitches: [enable-automation], extensions: [], useAutomationExtension: false}}
-jul 14, 2025 6:02:59 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+jul 14, 2025 9:28:43 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 138
-jul 14, 2025 6:02:59 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 14, 2025 9:28:43 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 138.0.7204.101. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  

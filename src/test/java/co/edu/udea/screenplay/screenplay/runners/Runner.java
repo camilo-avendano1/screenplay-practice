@@ -10,4 +10,7 @@ import org.junit.runner.RunWith;
         glue = "co.edu.udea.screenplay.screenplay.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class Runner {}
+public class Runner {
+
+
+}
