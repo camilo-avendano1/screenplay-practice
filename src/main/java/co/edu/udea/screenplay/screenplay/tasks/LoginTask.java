@@ -1,12 +1,9 @@
 package co.edu.udea.screenplay.screenplay.tasks;
 
-import co.edu.udea.screenplay.screenplay.interactions.InteractionLogin;
-import co.edu.udea.screenplay.screenplay.userinterfaces.UserInterface;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.Open;
+import co.edu.udea.screenplay.screenplay.interactions.LoginInteractions;
+import co.edu.udea.screenplay.screenplay.userinterfaces.UserInterface;
 
 public class LoginTask implements Task {
 
@@ -23,12 +20,10 @@ public class LoginTask implements Task {
     }
 
     @Override
-    public <T extends Actor> void performAs(T actor) {
+    public <T extends net.serenitybdd.screenplay.Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(UserInterface.LOGIN_BUTTON),
-                Enter.theValue(email).into(UserInterface.EMAIL_INPUT),
-                Enter.theValue(password).into(UserInterface.PASSWORD_INPUT),
-                Click.on(UserInterface.LOGIN_BUTTON_CONFIRMATION)
+                Open.browserOn(new UserInterface()),
+                LoginInteractions.withCredentials(email, password)
         );
     }
 }

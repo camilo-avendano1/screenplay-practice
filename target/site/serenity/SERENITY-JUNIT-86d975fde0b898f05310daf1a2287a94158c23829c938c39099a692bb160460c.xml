@@ -5,7 +5,7 @@ Driver info: driver.version: unknown</failure><system-err>Expected condition fai
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
 Driver info: driver.version: unknown&#13;
-co.edu.udea.screenplay.screenplay.interactions.InteractionLogin.performAs(InteractionDesktop.java:15)&#13;
+co.edu.udea.screenplay.screenplay.interactions.LoginInteractions.performAs(InteractionDesktop.java:15)&#13;
 co.edu.udea.screenplay.screenplay.tasks.LoginTask.performAs(TaskOpenDropdown.java:12)&#13;
 co.edu.udea.screenplay.screenplay.stepdefinitions.LoginSteps.elUsuarioNavegaALaSeccionDesktopYSeleccionaVerTodosLosProductos(DesktopSteps.java:48)&#13;
 worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
